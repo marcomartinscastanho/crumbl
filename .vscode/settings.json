@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "editor.tabSize": 2,
+  "autopep8.args": ["--max-line-length", "120"],
+  "flake8.args": ["--max-line-length", "120"]
+}
