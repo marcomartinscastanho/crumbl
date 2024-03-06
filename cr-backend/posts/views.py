@@ -1,6 +1,7 @@
-from rest_framework import generics
-from rest_framework import permissions
+from rest_framework import generics, permissions
+
 from posts.models import Post, PostImage
+
 from .serializers import PostImageSerializer, PostSerializer
 
 

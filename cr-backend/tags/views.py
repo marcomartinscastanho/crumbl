@@ -1,5 +1,5 @@
-from rest_framework import generics
-from rest_framework import permissions
+from rest_framework import generics, permissions
+
 from tags.models import Tag
 from tags.serializers import TagSerializer
 

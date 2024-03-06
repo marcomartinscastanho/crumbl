@@ -1,7 +1,7 @@
 from django.urls import path
-from posts.views import PostDetail, PostImageDetail, PostImageList, PostList
 from rest_framework.urlpatterns import format_suffix_patterns
 
+from posts.views import PostDetail, PostImageDetail, PostImageList, PostList
 
 urlpatterns = [
     path("", PostList.as_view(), name="post-list"),
